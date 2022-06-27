@@ -1,0 +1,24 @@
+
+   
+.posts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+
+.flex-wrap{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width: 565px) {
+    .flex-wrap{
+      margin-left: 10px;
+    }
+}
